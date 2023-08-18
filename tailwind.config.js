@@ -15,7 +15,8 @@ module.exports = {
             'design-conf-speaker': '#42266f',
             'date-colour' : '#b1b1b1',
             'body-bg-col' : '#f8fafd',
-            'cartScheduleBgCol' : '#eaf1f9'
+            'cartScheduleBgCol' : '#eaf1f9', 
+            'upperNavBodyBgCol' : '#dceff2'
           },
           borderRadius: {
             'cart-radius': '40px'

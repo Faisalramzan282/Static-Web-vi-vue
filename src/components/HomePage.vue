@@ -2,10 +2,10 @@
   <div class="bg-body-bg-col border border-black-900 font-bodyFont">
     <!-- Navigation Bar -->
     <!-- upper-div for background the colour change -->
-    <div class="header-backGround-set"> 
-      <img  src="../images/background-newsletter.488a0204.jpg" alt="">
+    <div class="header-backGround-set top-24 opacity-50 translate-x-[-30%] translate-y-[-10%] -scale-x-100"> 
+      <img  src="../images/background.6c3571e0.jpg" alt="">
     </div>
-    <div >  
+    <div class="bg-gradient-to-br from-upperNavBodyBgCol to-body-bg-col ">  
       <div class="flex p-10">
       <img class="" src="../images/logo2.png " alt="" />
       <div class="flex items-center justify-center gap-4 ml-auto">
@@ -323,6 +323,7 @@
         </div>
       </div>
       <!-- 6Th April details -->
+     
       <div class="text-left m-10 w-30 custom-class">
         <p class="text-design-conf-speaker text-2xl font-bold pt-2 pb-4">
           April 6
@@ -331,6 +332,9 @@
           We close out the event previewing new techniques that are still in
           development.
         </p>
+        <div class="header-backGround-set opacity-30"> 
+      <img  src="../images/background-newsletter.488a0204.jpg" alt="">
+      </div>
         <div class="bg-white/60 shadow-lg text-center">
           <p class="text-design-conf-speaker text-xl font-bold pt-10">
             Steven McHail
@@ -411,7 +415,11 @@
           <img class="w-40" src="../images/statamic.923101b6.png" alt="" />
         </div>
       </div>
+        <!-- stay up to date -->
       <div class="px-20 py-20 mt-32 bg-blue-200 rounded-3xl">
+         <div class="h-20 bg-no-repeat absolute opacity-30 ml-96"> 
+      <img class="h-96 " src="../images/background-newsletter.488a0204.jpg" alt="">
+      </div>
         <p
           class="text-design-conf-speaker text-4xl w-1/2 leading normal font-bold text-left mb-4"
         >
@@ -489,11 +497,9 @@ body {
   background-image: url(../images/background-newsletter.488a0204.jpg);
   background-repeat: no-repeat;
   position: absolute;
-  height: 1000px;
-  width: 40%;
-  top: 40px;
-  left: 40px;
-  z-index: 1;
-  opacity: 0.5;
+  height: 770px;
+  width: 30%;
+  z-index: 2;
+  
 }
 </style>
